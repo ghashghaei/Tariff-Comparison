@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.tariff-form {
+  margin-bottom: 20px;
+}
+
+.tariff-form label {
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.tariff-form input {
+  padding: 10px;
+  margin-right: 20px;
+  margin-left: 10px;
+  width: 200px;
+  border: 2px solid #4caf50; /* Match border color with button */
+  border-radius: 4px;
+  outline: none;
+}
+
+.tariff-form button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.tariff-form button:hover {
+  background-color: #45a049;
+}
+
+.tariffs table {
+  width: 50%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.tariffs th,
+.tariffs td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.tariffs th {
+  background-color: #4caf50;
+  color: white;
+}
+
+.tariffs td {
+  background-color: #fafafa;
+}
